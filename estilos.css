@@ -400,7 +400,7 @@ footer p{
   margin-top: var(--espacios);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
    .nav2 {
      color: #ffff;
    }
@@ -430,6 +430,7 @@ footer p{
      color: #ffff;
    }
 
+
    .textos>h1{font-size: 70px;}
    .textos>h2{font-size: 35px;}
 
@@ -437,6 +438,13 @@ footer p{
      width: 48%;
      margin-bottom: var(--margenes);
    }
+
+   .about{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -30px;
+    background-position-x: -105px;
+  }
 
    :root{
      --margenes: 30px;
@@ -450,6 +458,14 @@ footer p{
    .content-card{
      width: 90%;
    }
+
+   .logo, .logo img{height: 100px;}
+
+   .about{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: -309px;
+  }
    .caja-servicios{
      width: 90%;
      margin-bottom: var(--margenes);
