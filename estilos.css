@@ -274,6 +274,8 @@ nav .enlaces a:hover{
 }
 
 .about{
+  display: flex;
+  justify-content: center;
   background: url(img/hacker.jpg);
   background-position: center;
   background-position-y: -10px;
@@ -400,6 +402,17 @@ footer p{
   margin-top: var(--espacios);
 }
 
+@media screen and (max-width: 1000px) {
+  :root{
+    --espacios-contenido: 25px;
+  }
+  .about{
+   display: flex;
+   background-position: center;
+   background-repeat: no-repeat;
+  }
+ }
+
 @media screen and (max-width: 768px) {
    .nav2 {
      color: #ffff;
@@ -462,6 +475,7 @@ footer p{
    .logo, .logo img{height: 100px;}
 
    .about{
+    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-position-x: -309px;
